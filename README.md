@@ -12,6 +12,8 @@ Simple project on codeigniter 4
 1. git clone https://github.com/bemp/ci4-api-rest.git
 2. cd ci4-api-rest
 3. composer install
-4. php spark migrate
-5. php spark serve 
+4. create mysql database "ci_4_rest_api"
+5. edit .env database default
+6. php spark migrate
+7. php spark serve 
 8. Open project on http://localhost:8080
